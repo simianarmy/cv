@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/daeb4133-28cf-4a5b-8155-8aac5d54d449/deploy-status)](https://app.netlify.com/sites/gifted-nobel-bcf648/deploys)
+
 # gatsby-starter-resume
 
 Gatsby.js V2 starter template based on Resume by startbootstrap
@@ -68,7 +70,7 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 ### Checkout other similar starters
 
 - [gatsby-starter-casual](https://github.com/anubhavsrivastava/gatsby-starter-casual)
-- [gatsby-starter-grayscale](https://github.com/anubhavsrivastava/gatsby-starter-grayscale) 
+- [gatsby-starter-grayscale](https://github.com/anubhavsrivastava/gatsby-starter-grayscale)
 - [gatsby-starter-spectral](https://github.com/anubhavsrivastava/gatsby-starter-spectral)
 - [gatsby-starter-newage](https://github.com/anubhavsrivastava/gatsby-starter-newage)
 - [gatsby-starter-stylish](https://github.com/anubhavsrivastava/gatsby-starter-stylish)
