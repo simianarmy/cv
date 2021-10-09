@@ -22,7 +22,11 @@ const IndexPage = () => (
             {config.address} ·&nbsp;
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
-          <p className="lead mb-5">Lorem Ipsum dolores</p>
+          <p className="lead mb-5">
+            Seasoned developer with decades of experience in backend, frontend, and systems programming.
+            <br/>
+            Tech Lead, Manager, Mentor, IC
+          </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
               const { icon, url } = social;
@@ -47,45 +51,59 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
+              <h3 className="mb-0">Senior Software Engineer - Web</h3>
               <div className="subheading mb-3">Zwift</div>
-              <p>Lorem Ipsum</p>
+              <p>Planned & helped steer migration from legacy stack to NextJS / Webpack / React / Node</p>
+              <p>Worked with server engineers to integrate web products with backend systems</p>
+              <p>Designed & implemented core libraries & services used by web teams (Authentication, CMS, APIs)</p>
+              <p>Designed & implemented web apps used by majority of Zwift.com users</p>
+              <p>Lead & supported implementation of LiveOps services with AWS, Jenkins, Docker, & Kubernetes</p>
+              <p>Collaborated with teams & vendors in globally distributed offices</p>
+              <p>Mentored junior developers & interns</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">April 2018 - April 2021</span>
+              <span className="text-primary">May 2017 - April 2021</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Software Manager</h3>
+              <h3 className="mb-0">Software Engineer, Software Manager</h3>
               <div className="subheading mb-3">Double Down Interactive</div>
-              <p>Lorem Ipsum</p>
+              <p>Key role in developing the mobile version of DoubleDown Casino which grew to the top 5 grossing rankings in Apple and Android App Stores
+              </p>
+              <p>Managed a team of software developers to develop titles and casino features for the DoubleDown Casino mobile application (Hybrid HTML5 / Native)
+              </p>
+              <p>
+                Mentored junior developers in HTML5 game programming technologies and methodologies</p>
+              <p>Helped plan and design application-wide feature requirements
+              </p>
+              <p>Lead architecture reviews of major application subsystems
+              </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">July 2012 - March 2017</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
+              <h3 className="mb-0">Senior Software Engineer - Web</h3>
               <div className="subheading mb-3">Cricket Moon Media</div>
-              <p>Lorem Ipsum</p>
+              <p>
+                Implemented entertainment & educational web apps for large clients
+              </p>
+              <p>
+                Lead developer on large web project. Ruby on Rails / JS for website. Ruby for site support software
+              </p>
+              <p>Developed & maintained custom APIs to site backend services. Gem & plugin development for 3rd party network service integration. DB schema design, implementation, and optimization.</p>
+              <p>Wrote documentation, software diagrams, flowcharts for clients & support team</p>
+              <p>
+Lead developer for HTML5 game project using custom sprite assets and canvas animations with javascript . Implemented custom javascript audio library for cross-browser support. Worked with producer on meeting client feature requirements
+              </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Owner</h3>
-              <div className="subheading mb-3">Simian Labs</div>
-              <p>Lorem Ipsum</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">Feb 2010 - July 2012</span>
             </div>
           </div>
         </div>
@@ -197,10 +215,12 @@ const IndexPage = () => (
           <p>
             My passion is spending time outdoors, especially at the higher altitudes.
             In my free time I enjoy backpacking, rock climbing (trad), and bouldering.
-            I will occasionally attempt some alpine climbing & can be talked into snowboarding.
+            I will occasionally attempt some alpine climbs  & can be talked into snowboarding.
           </p>
           <p className="mb-0">
-            When at home I enjoy cooking, gardening, live music, & sci-fi novels.
+            When at home I enjoy cooking, gardening, live music, sci-fi, history, physics, & creative programming.
+            <br/>
+            I like to learn about & play with cool technologies (like WebGL, AR, VR, & ML).
           </p>
         </div>
       </section>
@@ -214,7 +234,6 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Awards &amp; Certifications</h2>
           <ul className="fa-ul mb-0">
-            Maybe one day...
           </ul>
         </div>
       </section>
