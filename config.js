@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/cv/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/cv`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Marc',
   lastName: 'Mauger',
   // social
@@ -29,6 +29,6 @@ module.exports = {
     },
   ],
   email: 'simianarmy@gmail.com',
-  phone: '206-953-4721',
+  phone: '000',
   address: 'Seattle, WA',
 };
